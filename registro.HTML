@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre-se</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner-registro">
+        <video autoplay muted loop>
+            <source src="./IMG/gif/registro-gif.mp4" type="video/mp4">
+        </video>
+        <header>
+            <section class="interface">
+                <div class="logo">
+                    <img src="IMG/logo.png" alt="Logotipo" width="100">
+                </div>
+
+                <div class="menu-desktop">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html"><b>HOME</b></a></li>
+                            <li><a href="index.html"><b>HOSPEDAGEM</b></a></li>
+                            <li><a href="registro.HTML"><b>REGISTRE SEU IMÓVEL</b></a></li>
+                            <li><a href="index.html"><b>FALE CONOSCO</b></a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="btn-login">
+                    <a href="login.HTML">Login</a>
+                </div>
+
+                <div class="btn-login">
+                    <a href="cadastro.HTML">Cadastro</a>
+                </div>
+            </section>
+    </header>
+
+    <main>
+        <div class="cadastro">
+                
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="txt" id="nome" name="nome" placeholder="Nome"> 
+                    <!-- Precisa desse name? -->
+                    <label for="cep">CEP</label>
+                    <input type=txt id="cep" maxlength="9" placeholder="00000-000" required>
+
+                    <label for="rua">Rua</label>
+                    <input type="txt" id="rua" placeholder="Rua" required>
+
+                    <label for="num">Número</label>
+                    <input type="txt" id="num" placeholder="Número" required>
+
+                    <label for="bairro">Bairro</label>
+                    <input type="txt" id="bairro" placeholder="Bairro" required>
+                    
+                    <label for="ref">Referência</label>
+                    <input type="txt" id="ref" placeholder="Referência">
+    
+                    <label for="dec">Descrição</label>
+                    <input type="txt" id="dec" placeholder="Descrição">
+
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="********" required>
+
+                    <label for="tel">Contato Proprietário</label>
+                    <input type="tel" id="tel" placeholder="00000-0000" required>
+                    
+                    <label for="coment">Comentário</label>
+                    <input type="txt" id="coment" placeholder="Comentário">
+
+                    <input type="file" name="imagem" accept="image/*" required> 
+                    <!--Colo deixo disponível para postar várias fotos?-->
+                    <input class="btn" type="submit" value="Enviar">
+                </div>
+
+                
+            </form>
+    </div>
+    </main>
+        
+    <footer>
+        <div class="reservado">
+            Casa Em Casa&copy 2024 - Todos os direitos reservados
+        </div>
+
+        <!-- <a href="#" id="topo">Home</a> -->
+    </footer>
+</div>
+</body>
+</html>
